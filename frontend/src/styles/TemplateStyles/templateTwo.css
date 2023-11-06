@@ -1,0 +1,222 @@
+/* Apply global styles */
+.cv-template {
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for Basic Details Container */
+.basic-detail-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  margin-bottom: 10px;
+}
+
+.contact,
+.address {
+  margin: 5px 0;
+}
+
+/* Styles for Social Profiles Container */
+.social-profiles-container {
+  margin-bottom: 20px;
+}
+
+.title-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.social-profiles a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styles for Education Details */
+.eduDetails,
+.skills {
+  margin-bottom: 20px;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+/* Styles for Work Experience Section */
+.work-exp-section {
+  background-color: #f2f2f2; /* Light grey background color */
+  border-radius: 10px; /* Rounded borders */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.work-exp-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.work-exp-item .exp-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.exp-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.exp-details h3 {
+  margin: 0;
+  font-size: 1.2rem; /* Font size for position */
+}
+
+.exp-details p {
+  margin: 5px 0;
+  font-size: 1rem; /* Font size for other details */
+}
+
+/* If you want different background colors for odd and even work experiences */
+.work-exp-item:nth-child(even) {
+  background-color: #ffffff; /* White background for even work experiences */
+}
+.work-exp-item:nth-child(odd) {
+  background-color: #f9f9f9; /* Light grey background for odd work experiences */
+}
+
+/* Styles for Projects Section */
+.projects-section {
+  background-color: #f2f2f2; /* Light grey background color */
+  border-radius: 10px; /* Rounded borders */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projectLists {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.projectLists p {
+  margin: 0;
+}
+
+.projectDetails {
+  margin-left: 10px;
+}
+
+.project-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+/* If you want different background colors for odd and even projects */
+.projectLists:nth-child(even) {
+  background-color: #ffffff; /* White background for even projects */
+}
+.projectLists:nth-child(odd) {
+  background-color: #f9f9f9; /* Light grey background for odd projects */
+}
+
+/* Styles for the Name and Introduction Section */
+.left-column {
+  background-color: #d2b48c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.left-column h3 {
+  font-weight: bold;
+}
+
+/* Additional Styles for Buttons or Other Elements */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styles for Right Column Section */
+.right-column {
+  padding: 20px;
+}
+
+.basic-detail-container {
+  margin-bottom: 20px;
+}
+
+.profile-image .image-circle {
+  width: 150px; /* Adjust the width of the profile image */
+  height: 150px; /* Adjust the height of the profile image */
+}
+
+.profile-details p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.profile-details .small {
+  font-size: 0.8rem;
+  color: #888; /* Light grey color for small text */
+}
+
+.social-profiles-container,
+.eduDetails,
+.skills {
+  margin-bottom: 20px;
+}
+
+.title-container h3 {
+  font-size: 1.5rem; /* Font size for section titles */
+  margin-bottom: 10px;
+}
+
+.education-item,
+.skillObj {
+  margin-bottom: 10px;
+}
+
+/* Font styles for educational details */
+.education-item p {
+  font-size: 1rem;
+}
+
+/* Font styles for skills */
+.skillObj p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Styles for social profile links */
+.social-profiles a.profile-link {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007bff; /* Blue color for profile links */
+}
+
+/* Hover effect for social profile links */
+.social-profiles a.profile-link:hover {
+  text-decoration: underline;
+}
